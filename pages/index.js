@@ -100,9 +100,6 @@ export default function Home() {
 
                     <Finale />
 
-
-
-
                 </div>
             </ContentWrap>
 

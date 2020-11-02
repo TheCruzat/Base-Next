@@ -50,7 +50,6 @@ const TopRailStyles = styled.div`
 const TopRail = () => {
   return (
     <TopRailStyles>
-
         <svg viewBox="0 0 2266 546" width="2266" height="546" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <g id="Page-1" stroke="none" stroke-width="1" fill="current" fill-rule="evenodd">
                 <g id="the-cruzat-logo_02" fill="#1B1A19">
@@ -59,31 +58,6 @@ const TopRail = () => {
             </g>
         </svg>
         <h1><span>theCruzat</span></h1>
-
-
-
-        {/* We only want to add the scripts if in production */}
-        {/*   {isProduction && (
-            <Fragment>
-                Global Site Tag (gtag.js) - Google Analytics
-                <script
-                    async
-                    src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-                />
-                <script
-                    dangerouslySetInnerHTML={{
-                        __html: `
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-
-                    gtag('config', '${GA_TRACKING_ID}', {
-                      page_path: window.location.pathname,
-                    });
-                  `
-                />
-            </Fragment>
-        )}*/}
     </TopRailStyles>
   )
 }

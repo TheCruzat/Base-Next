@@ -211,17 +211,17 @@ const BubbleBox = ({ children }) => {
 
 const Error404 = () => {
   /*
-  const [key, setKey] = useState({ value: null, code: null })
+      const [key, setKey] = useState({ value: null, code: null })
 
-  const handleKey = (e) => {
-    setKey({ value: e.key, code: e.keyCode })
-    console.log(key);
-  }
+      const handleKey = (e) => {
+        setKey({ value: e.key, code: e.keyCode })
+        console.log(key);
+      }
 
-  useEffect(() => {
-    // window.addEventListener("keyup", handleKey);
-  }, [handleKey]); */
-/*
+      useEffect(() => {
+        // window.addEventListener("keyup", handleKey);
+      }, [handleKey]); */
+    /*
   if(document!==undefined) {
     const sett = document.getElementsByTagName("a");
     const getRan = () => {
@@ -312,8 +312,6 @@ const Error404 = () => {
         <Footr>Press SPACE BAR to continue</Footr>
         <BottomLine />
       </div>
-
-
     </E404frame>
   )
 }
