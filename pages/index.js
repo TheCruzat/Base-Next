@@ -28,9 +28,9 @@ export default function Home() {
   return (
     <div>
         <Head>
-            <title>{ metaFings.title }></title>
+            <title>{ metaFings.title }</title>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <meta name="description" content="{ metaFings.description }" />
+            <meta name="description" content={ metaFings.description } />
             <meta name="keywords" content="Cruzat, Portland, producer, web developer, front end" />
             <meta name="author" content={ metaName } />
             <meta name="twitter:card" content="summary_large_image" />
