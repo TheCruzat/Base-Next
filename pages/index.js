@@ -46,6 +46,7 @@ export default function Home() {
             <meta property="og:description" content={ metaFings.description } />
             <meta property="og:image" content={ metaFings.image } />
 
+            <link rel="icon" type="image/x-icon" href="./assets/samurai.ico" />
             <link href='//fonts.googleapis.com/css?family=Rock+Salt|Roboto+Slab' rel='stylesheet' type='text/css' />
             <link href='//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css' />
         </Head>
