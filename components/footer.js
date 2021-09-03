@@ -224,8 +224,8 @@ const BotRail = () => {
       <MobileMenuTrigger />
       <div className="contain">
         <NavSet>
-          { links.navv.map((link) =>
-            <li>
+          { links.navv.map((link, ndx) =>
+            <li key={ndx}>
               <a
                 href={link.url}
                 title={link.title}
@@ -237,8 +237,8 @@ const BotRail = () => {
           )}
         </NavSet>
         <SocSet>
-          { links.socc.map((link) =>
-            <li>
+          { links.socc.map((link, ndx) =>
+            <li key={ndx}>
               <a
                 href={link.url}
                 title={link.title}
