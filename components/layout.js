@@ -20,7 +20,6 @@ export const Headline = styled.div`
   margin: 10vw auto 1.4rem;
   text-transform: uppercase;
   font-size: 1.2em;
-  color: $gold; // #6090a8;
   font-family: "Rock Salt", cursive;
   color: var(--gold);
 `;
