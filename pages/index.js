@@ -13,6 +13,8 @@ const Title = styled.h1`
   color: ${({ theme }) => theme.colors.primary};
 `
 
+// <html lang="en" prefix="og: http://ogp.me/ns#">
+
 const metaName = "Dan Cruzat";
 
 const metaFings = {
@@ -20,7 +22,7 @@ const metaFings = {
   url: "https://thecruzat.com",
   title: "The Cruzat : Human Doing Things On Earth",
   description: metaName + " is a web developer, music producer and general digital creative (with wild Tetris skills).",
-  image: "./thecruzat-social.png",
+  image: "https://thecruzat.com/assets/thecruzat-social.png",
   twitter: "@_Cruzat"
 }
 
