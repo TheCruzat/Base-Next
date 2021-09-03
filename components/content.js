@@ -53,7 +53,7 @@ const Content = () => {
 
       <p>Doctor Who keeps getting better and better. Loving Whitaker but must confess Capaldi is still my favorite of the new batch. In my lifetime I have seen the nerd identity free itself from ridicule and become a badge of honor. Go forth, young lions.</p>
       <p>It is in the nature of things to grow and change. So while hip hop or DW may be very different than it was when I was a kid, so am I, so is the world. I still see the connecting threads to the things that I loved, it's still The Same Thing, Just Modern. Try to accept the changes.</p>
-      <p>I am a moderate-to-insanely busy human but <a href="mailto:dan@thecruzat.com?subject=I was at theCruzat.com and all I got was this crap email prompt" title="holler at me joe">would love to hear from you</a>. Be patient if it takes me a little while to get back to you. :D</p>
+      <p>I am a moderate-to-insanely busy human but <a href="mailto:dan@thecruzat.com?subject=I%20was%20at%20theCruzat.com%20and%20all%20I%20got%20was%20this%20crap%20email%20prompt" title="holler at me joe">would love to hear from you</a>. Be patient if it takes me a little while to get back to you. :D</p>
 
       <Finale />
     </div>
