@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 // import HelloTag from "../assets/hello.png";
 
-const GreetoFrame = styled.h2`
+const GreetoFrame = styled.div`
   display:flex;
   justify-content: center;
   align-items: center;
