@@ -107,7 +107,6 @@ const BotRailStyles = styled.div`
     padding: 0;
     display: inline-flex;
     width: 100%;
-    max-width: 240px;
     height: auto
     align-items: center;
     justify-content: space-between;
@@ -130,6 +129,7 @@ const BotRailStyles = styled.div`
 `;
 
 const NavSet = styled.ul`
+  max-width: 180px;
   li a {
     text-transform: uppercase;
     font-size: 1.2rem; // 0.6em;
@@ -138,6 +138,7 @@ const NavSet = styled.ul`
 
 const SocSet = styled.ul`
  margin-top: 1.4rem!important;
+    max-width: 240px;
  li {
    a {
     width: 24px;
