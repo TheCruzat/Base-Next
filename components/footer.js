@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 const links = {
   navv: [
-    {
+    /*{
       url: "http://cruzat.media",
       title: "find me at Cruzat.Media",
       label: "c.m",
@@ -12,11 +12,11 @@ const links = {
       url: "http://eencee.me",
       title: "learn about my partnership with freelance Art Director Christine Ellsworth",
       label: "e+c",
-    },
+    },*/
     {
       url: "http://builtby.thecruzat.com",
       title: "see my portfolio",
-      label: "folio",
+      label: "portfolio",
     },
     {
       url: "http://coffeewith.thecruzat.com",
