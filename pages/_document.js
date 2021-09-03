@@ -1,4 +1,4 @@
-import Document from 'next/document'
+import Document, { Html } from 'next/document'
 import { Fragment } from 'react'
 import { ServerStyleSheet } from 'styled-components'
 
@@ -37,6 +37,7 @@ export default class MyDocument extends Document {
             {initialProps.styles}
             {sheet.getStyleElement()}
             {isProduction && (
+              <Html lang="en" prefix="og: http://ogp.me/ns#">
                 <Fragment>
                   <script
                       async
@@ -45,6 +46,7 @@ export default class MyDocument extends Document {
                   {/* We call the function above to inject the contents of the script tag */}
                   <script dangerouslySetInnerHTML={setGoogleTags()} />
                 </Fragment>
+              </Html>
             )}
           </>
         ),
