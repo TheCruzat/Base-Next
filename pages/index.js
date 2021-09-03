@@ -32,10 +32,12 @@ export default function Home() {
         <Head>
           <title>{ metaFings.title }</title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta charSet="utf-8" />
           <meta name="description" content={ metaFings.description } />
           <meta name="keywords" content="Cruzat, Portland, producer, web developer, front end" />
           <meta name="author" content={ metaName } />
           <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:url" content={ metaFings.url } />
           <meta name="twitter:site" content={ metaFings.twitter } />
           <meta name="twitter:creator" content={ metaFings.twitter } />
           <meta name="twitter:title" content={ metaFings.title } />
@@ -44,7 +46,7 @@ export default function Home() {
           <meta name="twitter:image:alt" content={ metaName } />
           <meta property="og:url" content={ metaFings.url } />
           <meta property="og:title" content={ metaFings.title } />
-          <meta property="og:site_name" content={ metaFings.title } />
+          <meta property="og:site_name" content={ metaFings.url } />
           <meta property="og:description" content={ metaFings.description } />
           <meta property="og:image" content={ metaFings.image } />
 
