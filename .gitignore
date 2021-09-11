@@ -32,3 +32,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+/TheCruzatNext.sublime-project
+/TheCruzatNext.sublime-workspace
+/yarn.lock
